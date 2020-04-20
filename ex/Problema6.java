@@ -1,6 +1,4 @@
-/*  Aula 6 - Recursividade
- *  NMEC:93418		NOME:Beatriz Agante de Almeida
- *  
+/*
  *  Descubra o que faz a função F, implementada de forma iterativa. 
  *  Determine o caso base para o problema e a relação de recursividade
  *  de forma a implementar a função H de forma recursiva.
