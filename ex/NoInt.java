@@ -1,5 +1,4 @@
-
-//Nº Mec: 93418 || Nome: Beatriz Agante de Almeida
+//ex. de listas de números
 
 class NoInt {
     int valor;
