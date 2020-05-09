@@ -35,29 +35,7 @@ public class GetWords
 	
     
   }
-	//remove as palavras repetidas no array
-	public static int removeRepeat(String[] words){
-		int k = 0; //iniciar o array sem repetições
-		int distinct = 0; //contar o número de palavras distintas
-		String[] repeat = new String[words.length];
-		for (int i = 0; i < words.length; i++)
-		{
-			for (int j = i + 1; j < words.length; j++)
-			{
-				if (words[j].equals(words[i]))
-				{
-					distinct++;
-					repeat[k] = words[j];
-				}
-				else
-				{
-					distinct = distinct;
-				}
-			}
-			
-		}
-		return distinct;
-	}
+
 
   // Read words from a file, return words in an array
   static String[] extractWords(File fin) {
