@@ -32,11 +32,6 @@ public class Person {
   private final String profession;
   private final int birthYear;
   
-  
-  //função para comparar anos de nascimento e determinar o mais velho
-  public boolean olderThan(Person p){
-	  return birthYear < p.birthYear();
-  }
 
 }
 
