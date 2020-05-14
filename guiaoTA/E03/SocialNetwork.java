@@ -231,8 +231,9 @@ public class SocialNetwork {
 			if (!foundFirst)
 			{
 				oldest = new Person(p.name(),p.birthYear(),p.profession());
+				foundFirst = true;
 			}
-			if (p.olderThan(oldest))
+			if (p.birthYear() < oldest.birthYear())
 			{
 				oldest = p;
 			}
