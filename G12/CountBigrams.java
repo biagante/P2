@@ -65,7 +65,6 @@ public class CountBigrams
   static void printCounts(HashTable<Integer> counts) {
     String[] keys = counts.keys();
     Arrays.sort(keys);
-    File file = new File("output1.txt");
     for (int i = 0; i < keys.length; i++)
 	{
 		out.println(keys[i] + ": " + counts.get(keys[i]));
