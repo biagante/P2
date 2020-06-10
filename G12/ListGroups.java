@@ -11,7 +11,7 @@ public class ListGroups
 
   public static void main(String[] args) {
     if (args.length!=1) {
-      err.printf("Usage: java -ea CheckGroups Group-File\n");
+      err.printf("Usage: java -ea ListGroups Group-File\n");
       exit(1);
     }
 
