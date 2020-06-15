@@ -60,7 +60,7 @@ public class CountBigrams2
 			}
 			else
 			{
-				KeyValueList newList1 = new KeyValueList<Integer>();
+				KeyValueList<Integer> newList1 = new KeyValueList<Integer>();
 				newList1.set(currWord, 1);
 				counts.set(prevWord, newList1);  
 			}
@@ -100,9 +100,8 @@ public class CountBigrams2
 		Arrays.sort(countKeys);
 		for (int i = 0; i < countKeys.length ; i++)
 		{
-			out.println(countKeys[i]);
 			int value = list1.get(countKeys[i]);
-			if (value != max)
+			if (value > max)
 			{
 				max = value;
 				mostFrequent = countKeys[i];
